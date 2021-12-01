@@ -1,0 +1,143 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:#f2f2f2;
+	color:#333;
+	font-family:Arial, helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:#F24C27;
+}
+
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	height: 83px;
+	padding:20px 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.logo {
+	width: 260px;
+	float: left;
+
+}
+
+.logo img {
+	width:100%;
+	vertical-align: top;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+}
+
+nav ul li a {
+	display: block;
+	background: #f2f2f2;
+	color: #609b49;
+	padding:10px 20px;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background: #040b72;
+}
+
+.mensaje {
+	background:#040b72;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+	border-radius:5px;
+}
+
+.articulo {
+	float: left;
+	width: 70%;
+	padding:0px 20px 20px 0px;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	background:#02591f;
+	color:#fff;
+	padding:20px;
+	border-radius:5px;
+}
+
+.widget ul {
+	margin-left:20px;
+}
+
+.widget ul li {
+	margin:10px 0;
+	width: 100%;
+}
+
+.widget ul li a {
+	color:#fff;
+}
+
+.widget ul li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	background:#a7ccb3;
+	padding:20px 0;
+	color:#fff;
+}
+
+footer p {
+	text-align:center;
+}
+
+.articulos{
+	justify-content: center;
+	width: 100%;
+	margin: right;
+	display: flex;
+	flex-direction:column;
+	text-align: left;
+}
+.articulos input{
+	padding: 10px 250px;
+	text-align: center;
+}
+#adquirir{
+	margin-top: 20px;
+	background-color: rgb(255, 156, 74);
+	border: none;
+	width: 100%;
+	color: white;
+	border-radius: 10px;
+}
+h4{
+	color: rgb(255, 156, 74);
+}
